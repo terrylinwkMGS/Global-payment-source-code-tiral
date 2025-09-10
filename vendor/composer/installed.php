@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'globalpayments/globalpayments-woocommerce',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'globalpayments/globalpayments-woocommerce' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'globalpayments/php-sdk' => array(
+            'pretty_version' => '13.3.3',
+            'version' => '13.3.3.0',
+            'reference' => 'dc3488ebc571801680244c46f374b8140463f2dd',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../globalpayments/php-sdk',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'psr/log' => array(
+            'pretty_version' => '1.1.4',
+            'version' => '1.1.4.0',
+            'reference' => 'd49695b909c3b7628b6289db5479a1c204601f11',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/log',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

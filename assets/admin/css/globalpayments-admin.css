@@ -1,0 +1,46 @@
+.ul-multicheckbox {
+    margin:0;
+}
+
+.woocommerce-globalpayments-checkout-error,
+.wc-globalpayments-transaction-info-error {
+    background-color:#e2401c;
+    margin-left:0;
+    margin-bottom:10px;
+    border-radius:4px;
+    color:#fff;
+    clear:both;
+    padding:6px 12px;
+    position:relative;
+    list-style:none outside;
+    display:block;
+    width:100%;
+    font-size:14px;
+}
+
+.globalpayments.card-submit iframe {
+    min-height:32px;
+    width:auto;
+}
+
+.wc-transaction-info table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.wc-transaction-info td {
+    text-align: left;
+    padding: 8px;
+}
+
+.wc-transaction-info tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.wc-transaction-info td:first-child {
+    float: left;
+}
+
+.wc-transaction-info td:last-child {
+    float: right;
+}
